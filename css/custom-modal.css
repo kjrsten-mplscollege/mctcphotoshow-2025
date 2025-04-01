@@ -1,0 +1,102 @@
+/*Custom show schedule button css*/
+
+.btn-sample {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-color: #000000;
+    font-size: 36px;
+    border-radius: 0 !important;
+    text-decoration: none;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    color: #fff;
+    background-color: black;
+    border-color: #000000;
+    text-decoration: none;
+    outline: none !important;
+    box-shadow: none;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    background-image: none;
+    text-decoration: none;
+}
+
+
+.btn-sample .badge {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/*Start custom modal styling*/
+
+
+/*Bold and thin headline styling*/
+.bold {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+ }
+
+.thin {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+
+}
+
+
+
+.namebold {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+.namethin {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+
+.datebold {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+
+}
+
+.datethin {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+
+}
+
+.modal-header{
+    margin: 0 auto ;
+   border: none;
+
+}
+

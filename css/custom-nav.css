@@ -1,0 +1,148 @@
+/* CUSTOM NAV CSS INTRODUCED BY IRA A RADTKE */
+/* EDITED BY SHANNON UNDERWOOD & DAN TIMM 2019 */
+
+/* BEFORE SCROLL */ 
+#custom-nav {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  border: 0;
+  box-shadow: none;
+  z-index: 999;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background 0.5s ease-in-out, opacity 0.75s ease;
+  -moz-transition: background 0.5s ease-in-out, opacity 0.75s ease;
+  transition: background 0.5s ease-in-out, opacity 0.75s ease;
+}
+#logo a:hover{
+  border-bottom: 1px solid transparent !important;
+}
+#logo img:hover{
+  transition: none !important;
+  transform: none !important;
+}
+.navbar .navbar-nav .nav-link {
+  color: black  !important;
+}
+#custom-nav a {
+  margin: 0 50px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  border: 1px solid transparent;
+}
+
+.navbar .navbar-toggler {
+  border-color: purple !important;
+}
+
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(99,48,128)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#custom-nav.affix a:hover {
+   color: #633080 !important;
+}
+
+/* AFTER SCROLL */
+#custom-nav.affix,
+#custom-nav-personalPage.affix {
+  background-color: white !important;
+  opacity: .90;
+}
+
+#custom-nav.affix a:hover {
+  border-bottom: 1px solid 633080;
+}
+
+/* MEDIA QUERIES - DESKTOP GENERAL */
+@media screen and (max-width: 992px) {
+  #custom-nav a {
+    margin: 0 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #custom-nav a {
+    margin: 0 10px;
+  }
+}
+/* MEDIA QUERIES - MOBILE GENERAL */
+@media screen and (max-width: 575px) {
+  #custom-nav,
+  #custom-nav.affix {
+    background-color: black;
+    opacity: 1;
+  }
+  #wrapwrap {
+    padding-top: 50px;
+  }
+  .navbar-fixed-top {
+    z-index: 999;
+  }
+  #custom-nav .navbar-collapse li.nav-item {
+    background-color: white;
+  }
+  #custom-nav .navbar-collapse li.nav-item a {
+    color: black !important;
+  }
+
+  #custom-nav-personalPage .navbar-collapse li.nav-item {
+    opacity: 0.9;
+    background-color: black;
+  }
+  #custom-nav-personalPage .navbar-collapse li.nav-item a {
+    color: #000000;
+  }
+  .scrollable-menu {
+    height: auto;
+    max-height: 625px;
+    overflow-x: hidden;
+  }
+}
+/* MEDIA QUERIES - MOBILE (ACCORDING TO CHROME) */
+/* IPHONE 6+-8+ 414x736 */
+@media screen and (max-width: 414px) {
+  .scrollable-menu {
+    height: auto;
+    max-height: 625px;
+    overflow-x: hidden;
+  }
+}
+/* PIXEL 2 411x731; PIXEL XL 411x823 */
+@media screen and (max-width: 411px) {
+  .scrollable-menu {
+    height: auto;
+    max-height: 625px;
+    /* optimized to accommodate shorter height of Pixel 2 at same width */
+    overflow-x: hidden;
+  }
+}
+/* iPhone 6-8 375x667; iPhone X 375x812 */
+@media screen and (max-width: 375px) {
+  .scrollable-menu {
+    height: auto;
+    max-height: 590px;
+    /* optimized to accommodate shorter height of iPhone 6-8 at same width */
+    overflow-x: hidden;
+  }
+}
+/* GALAXY S5 360x640 */
+@media screen and (max-width: 360px) {
+  .scrollable-menu {
+    height: auto;
+    max-height: 575px;
+    overflow-x: hidden;
+  }
+}
+/* IPHONE SE 320x568 */
+@media screen and (max-width: 320px) {
+  .scrollable-menu {
+    height: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+  }
+}

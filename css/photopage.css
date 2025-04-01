@@ -1,0 +1,61 @@
+
+#main-section {
+    margin-top: 100px;
+}
+
+#main-section a:hover,
+#main-section a:focus {
+    text-decoration: none;
+    color: #633080;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.photo-h1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+}
+
+#photo-page-desc {
+    margin: auto !important;
+    max-width: 576px;
+}
+
+.name {
+    font-family: 'Century Gothic', 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 5px;
+    color: black;
+}
+a {
+    color: black;
+}
+a img:hover {
+    transform: scale(1.02);
+}
+a img {
+    transition: .6s;
+}
+.placeholder {
+    width: 300px
+}
+
+.gallery-row {
+    margin: 30px 60px;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+@media (max-width: 450px) {
+    .name {
+        font-size: 1.5rem;
+    }
+}
