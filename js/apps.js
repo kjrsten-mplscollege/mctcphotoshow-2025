@@ -1,10 +1,10 @@
 // SMOOTH SCROLLING
 
 $(document).ready(function () {
-    $('.scroll-down').on('click', function(e) {
-        // e.preventDefault();
-        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
-    });
+    // $('.scroll-down').on('click', function(e) {
+    //     // e.preventDefault();
+    //     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 1000, 'linear');
+    // });
 
 
 
